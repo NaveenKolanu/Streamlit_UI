@@ -1,0 +1,10 @@
+import streamlit as st
+st.title('My First app')
+st.header('hello')
+st.text('its exciting')
+st.write('streamlit is a UI application')
+st.text_input('Enter the name:')
+st.number_input('Ebter the age:')
+st.button('click')
+st.slider('value', 0, 100)
+st.selectbox('choose', ['India','USA','UK'])
